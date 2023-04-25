@@ -1,0 +1,6 @@
+Guide:
+
+- Data Gathering and overview along with Intro
+- Data cleaning, Porting and Processing
+- Analysis
+- Final Insights and Dashboard prepare
