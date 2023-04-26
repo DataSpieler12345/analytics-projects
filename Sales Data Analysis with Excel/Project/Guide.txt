@@ -1,0 +1,7 @@
+Some key concepts we will learn are
+
+- Pivot tables  slicers
+- Data Analysis
+- Custom formatting
+- Working with shapes.
+- Design and colors.
