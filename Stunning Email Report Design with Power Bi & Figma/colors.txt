@@ -1,0 +1,18 @@
+Orange
+normal - #FF9981 <- in theme
+light - #FFB9A9  
+dark - #EC542F  <-
+
+
+
+
+Purple
+normal - #9697FF <- 
+light - #B9BAFB
+dark - #4849CA  <- 
+
+
+gray
+normal - 474759 <-
+dark - 3D3D51 <-
+shade - 
