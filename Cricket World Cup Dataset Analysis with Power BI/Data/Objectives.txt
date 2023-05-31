@@ -1,0 +1,14 @@
+1. create a matrix to show lost, n/r, tied, won for each country
+2. max of runs by batsman
+3. 	max of wckts by bowler
+Cards:								Slicer:
+4. Runs									14. Batsman
+5. Ball faced							15. Bowler
+6. Total 4s
+7. Total 6s
+8. Most Runs Scored
+9. Most Wickets Taken
+10. Total Wickets
+11. Total Overs
+12. Maidens Bowled
+13. Runs Conceded
