@@ -1,0 +1,213 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.4.0.0",
+      "metaVersion": 1,
+      "provider": "vegaLite",
+      "providerVersion": "5.4.0"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "heatmap with bars - themed",
+      "description": "Heatmap, uses the 5th theme color as bar chart, 8th color for font, and sentiment colors for gradient. X and Y axis are using Date table from Bravo, and are sorted for X= Month, Y = Day of Week. If you are using a different ordinal column, please make sure the columns are properly sorted",
+      "author": "Injae Park",
+      "uuid": "57ee5f3a-4a51-4230-8885-7db391a05805",
+      "generated": "2022-10-19T11:12:58.962Z"
+    },
+    "dataset": [
+      {
+        "key": "Day of Week",
+        "name": "Day of Week",
+        "description": "From Bravo, is 3 character abbreviation, i.e. Mon, Tue, Wed",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "Month",
+        "name": "Month",
+        "description": "From Bravo, is 3 character abbreviation, i.e. Jan, Feb, Mar",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "_Track",
+        "name": "_Track",
+        "description": "",
+        "type": "numeric",
+        "kind": "measure"
+      }
+    ]
+  },
+  "config": {
+    "autosize": {
+      "type": "fit",
+      "contains": "padding"
+    },
+    "view": {"stroke": "transparent"}
+  },
+  "data": {"name": "dataset"},
+  "spacing": 15,
+  "bounds": "flush",
+  "vconcat": [
+    {
+      "height": 40,
+      "width":{"step": 30},
+      "mark": {
+        "type": "bar",
+        "stroke": null,
+        "cornerRadiusEnd": 4,
+        "tooltip": true,
+        "color": {"expr": "pbiColor(4)"}
+      },
+      "encoding": {
+        "x": {
+          "field": "Month",
+          "sort": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+          ],
+          "axis": null
+        },
+        "y": {
+          "field": "_Track",
+          "aggregate": "mean",
+          "axis": null
+        }
+      }
+    },
+    {
+      "spacing": 15,
+      "bounds": "flush",
+      "hconcat": [
+        {
+          "mark": {
+            "type": "rect",
+            "stroke": "white",
+            "tooltip": true,
+            "cornerRadius": 6
+          },
+          "width": {"step": 30},
+          "height": {"step": 30},
+          "encoding": {
+            "y": {
+              "field": "Day of Week",
+              "type": "ordinal",
+              "title": "",
+              "sort": [
+                "Mon",
+                "Tue",
+                "Wed",
+                "Thu",
+                "Fri",
+                "Sat",
+                "Sun"
+              ],
+              "axis": {
+                "domain": false,
+                "ticks": false,
+                "labels": true,
+                "labelAngle": 0,
+                "labelPadding": 5,
+                "labelColor": {
+                  "expr": "pbiColor(7)"
+                }
+              }
+            },
+            "x": {
+              "field": "Month",
+              "type": "ordinal",
+              "title": "",
+              "sort": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct",
+                "Nov",
+                "Dec"
+              ],
+              "axis": {
+                "domain": false,
+                "ticks": false,
+                "labels": true,
+                "labelAngle": 0,
+                "labelColor": {
+                  "expr": "pbiColor(7)"
+                },
+                "titleColor": {
+                  "expr": "pbiColor(7)"
+                }
+              }
+            },
+            "color": {
+              "aggregate": "mean",
+              "field": "_Track",
+              "type": "quantitative",
+              "title": "Orders",
+              "scale": {
+                "scheme": "pbiColorLinear"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "bar",
+            "stroke": null,
+            "cornerRadiusEnd": 4,
+            "tooltip": true,
+            "color": {
+              "expr": "pbiColor(4)"
+            }
+          },
+          "width": 40,
+          "heigh": {"step": 30},
+          "encoding": {
+            "y": {
+              "field": "Day of Week",
+              "axis": null,
+              "sort": [
+                "mon",
+                "tue",
+                "wed",
+                "thu",
+                "fri",
+                "sat",
+                "sun"
+              ]
+            },
+            "x": {
+              "field": "_Track",
+              "type": "quantitative",
+              "aggregate": "mean",
+              "axis": null
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
