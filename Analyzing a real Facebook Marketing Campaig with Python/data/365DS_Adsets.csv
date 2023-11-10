@@ -1,0 +1,14 @@
+﻿Reporting Starts,Reporting Ends,Ad Set Name,Amount Spent,Results,Result indicator,CPR,Reach,Impressions,Frequency,CPM,CPC,CTR (all),Link Clicks,Landing Page Views
+20/5/2022,31/5/2022,T1 - Cold - LLA - Promo May,332.65,2,actions:offsite_conversion.fb_pixel_purchase,166.325,6032,12594,2.087865,26.413371,2.294138,2.2074,145,89
+20/5/2022,31/5/2022,T1 - Cold - DT - Promo May,915,15,actions:offsite_conversion.fb_pixel_purchase,61,18900,42510,2.249206,21.524347,2.636888,1.587862,347,215
+20/5/2022,31/5/2022,T2 - Cold - LLA - Promo May,327.77,4,actions:offsite_conversion.fb_pixel_purchase,81.9425,34743,61268,1.763463,5.349775,0.947312,1.237187,346,220
+20/5/2022,31/5/2022,T2 - Cold - DT - Promo May,297.38,0,,,45001,65880,1.463967,4.513965,0.788806,1.220401,377,225
+20/5/2022,31/5/2022,T3 - Cold - LLA - Promo May,291.45,4,actions:offsite_conversion.fb_pixel_purchase,72.8625,69040,147600,2.137891,1.974594,0.464092,1.115854,628,372
+20/5/2022,31/5/2022,T3 - Cold - DT - Promo May,49.23,0,,,27448,38664,1.408627,1.273277,0.259105,1.25957,190,77
+20/5/2022,31/5/2022,T4 - Cold - DT - Promo May,91.02,2,actions:offsite_conversion.fb_pixel_purchase,45.51,44784,65515,1.462911,1.3893,0.238272,1.340151,382,169
+20/5/2022,31/5/2022,T4 - Cold - LLA - Promo May,272.38,5,actions:offsite_conversion.fb_pixel_purchase,54.476,109535,201309,1.837851,1.353044,0.298662,0.997968,912,540
+20/5/2022,31/5/2022,Warm - CRSL,431.14,14,actions:offsite_conversion.fb_pixel_purchase,30.79571429,43008,208699,4.852562,2.065846,0.688722,0.728322,626,357
+20/5/2022,31/5/2022,Warm - Videos,430.95,6,actions:offsite_conversion.fb_pixel_purchase,71.825,21456,115344,5.375839,3.736215,0.543443,1.377618,793,185
+20/5/2022,31/5/2022,HOT - Last day,62.19,1,actions:offsite_conversion.fb_pixel_purchase,62.19,5774,11973,2.073606,5.194187,1.351957,0.94379,46,27
+20/5/2022,31/5/2022,HOT - Last chance & crsl,634.62,20,actions:offsite_conversion.fb_pixel_purchase,31.731,16536,120670,7.297412,5.259136,1.047228,1.104666,606,395
+20/5/2022,31/5/2022,HOT - Discount,226.34,10,actions:offsite_conversion.fb_pixel_purchase,22.634,11277,44026,3.904052,5.141053,1.185026,1.053923,191,114
