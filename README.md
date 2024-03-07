@@ -11,7 +11,7 @@
 
 Embark on a journey of analytics projects featuring diverse technologies. From data wrangling with Pandas to crafting stunning visualizations with Tableau and PowerBI, we've got it all covered.
 
-##  📊 Power BI | Tableau Desktop | Excel | MySql | PostgreSQL | Python | Figma 
+## 📊 Power BI | Tableau Desktop | Excel | MySql | PostgreSQL | Python | Jupyter-Notebook | Figma-Design
 
 ## 🚀 Quick Start
 
