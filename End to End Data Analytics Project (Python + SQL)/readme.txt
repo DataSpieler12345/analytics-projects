@@ -17,15 +17,20 @@ Welcome to our end-to-end data analytics project! In this project, we will utili
 
 ## How to Use
 1. Clone the repository to your local machine.
-2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Run the Jupyter Notebook or Python script to execute the project.
-4. Explore the results and insights obtained from the data analysis.
+2. Run the Jupyter Notebook or Python script to execute the project.
+3. Explore the results and insights obtained from the data analysis.
 
 ## Images
 - Add images by dragging and dropping them into the designated section after completing the project.
 
 We hope you enjoy exploring this data analytics project!
 
-![Python Logo](python_logo.png) ![SQL Logo](sql_logo.png) ![Kaggle Logo](kaggle_logo.png) ![Pandas Logo](pandas_logo.png) ![SQL Server Logo](sql_server_logo.png)
+![Python Logo][python_logo] ![SQL Logo][sql_logo] ![Kaggle Logo][kaggle_logo] ![Pandas Logo][pandas_logo] ![SQL Server Logo][sql_server_logo]
 
 Feel free to reach out if you have any questions or feedback. Happy analyzing!
+
+[python_logo]: python_logo.png
+[sql_logo]: sql_logo.png
+[kaggle_logo]: kaggle_logo.png
+[pandas_logo]: pandas_logo.png
+[sql_server_logo]: sql_server_logo.png
