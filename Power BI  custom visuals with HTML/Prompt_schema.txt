@@ -1,0 +1,166 @@
+*overview
+promt1: write a code for an html card, which wipes down like a tooltip when I hover over  a buttom
+
+promt2:  Can you change the code to make these changes?
+    	The background should be transparent 
+	The bottom border should be of color #dddddd, the button should have color #303030 
+	The tooltip should have color #303030 with border color #dddddd
+
+promt3: Above the button, can you write "Lamborghini"? Give some vertical space between Lamborguini and the button.
+	The button and "Lamborguini" should have a faded animation effect in the start, with a transition of 0.5 seconds.
+
+prompt4: Enclose this html code in a DAX measure to be used in Power BI. Do not change the html code itself. Only enclose it in a DAX measure.
+
+promt5: Can you modify the DAX so that the tooltip card is left-aligned and not truncated. Do not disturb any other part of the code 
+
+promt6: Write CSS for making the text bold and color as #f2b950
+
+pront7: Create a html code for an image which has a faded zoom effect from 70% to 100% when the page loads. 
+	The background should be transparent. 
+	Also, place 3 gray dots of size 16px by 16px at random positions where if i bring my mouse pointer, they show me a tooltip which appears with the faded.
+	The tooltip should have 50% transparency in the background. 
+
+promt8: Can you modify the code and give me the final result. 
+	This image should be retrieved from the location: 
+	https://i.ibb.co/s9GRbV2H/ar-sian-fkp-enhanced-1.png
+
+promt9: Create a DAX measure to enclose this html code within. Do not change the contents of the html code. 
+
+promt10: Can you adjut tooltip so that the box of the tool tip is of fixed width and does not wrap the words unnecesarily?
+
+	.tooltip {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.75);
+      color: white;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 14px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.5s ease;
+      white-space: normal;
+      width: 220px;
+      overflow-wrap: break-word;
+      transform: translateY(-100%);
+      margin-top: -10px;
+      box-sizing: border-box;
+      line-height: 1.3;
+      text-align: left;
+    }
+
+promt10: Can you write an html script for a KPI card in which the KPI number loads like a ticker as that at the airport in which the tickers of three digits rotate to form the final number?
+
+
+promnt11: Create a DAX measure for this html code so I can use it in Power BI. Enclose this html code in a DAX measure.
+
+prompt12: Make the following adjustments:
+          Make the background transparent.
+	  Make the font style Arial
+	  Make the fon color white
+          Remove any frames or borders around the numbers
+
+
+HTML_TopSpeed = 
+VAR _kpiValue = FORMAT([KPI_(Top Speed)], "000")  -- force 3-digit string, e.g. 027 or 412
+VAR d1 = MID(_kpiValue, 1, 1)
+VAR d2 = MID(_kpiValue, 2, 1)
+VAR d3 = MID(_kpiValue, 3, 1)
+
+VAR htmlString = 
+"<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<style>
+  body {
+    background: transparent;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: #cccccc;
+    text-align: center;
+    margin-bottom: 0.2em;
+  }
+  .kpi-card {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    gap: 0.2em;
+    background: transparent;
+    user-select: none;
+    line-height: 1em;
+    height: 1em;
+  }
+  .digit {
+    position: relative;
+    width: 1ch;
+    overflow: hidden;
+    height: 1em;
+  }
+  .digit span {
+    display: block;
+    animation-timing-function: steps(10, end);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    line-height: 1em;
+  }
+  .digit:nth-child(1) span {
+    animation-name: ticker1;
+    animation-duration: 0.7s;
+  }
+  .digit:nth-child(2) span {
+    animation-name: ticker2;
+    animation-duration: 0.7s;
+  }
+  .digit:nth-child(3) span {
+    animation-name: ticker3;
+    animation-duration: 0.7s;
+  }
+  @keyframes ticker1 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-" & d1 & "em); }
+  }
+  @keyframes ticker2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-" & d2 & "em); }
+  }
+  @keyframes ticker3 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-" & d3 & "em); }
+  }
+</style>
+</head>
+<body>
+  <h1>KPI Ticker Card</h1>
+  <div class='kpi-card' aria-label='KPI Number'>
+    <div class='digit'>
+      <span>0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9</span>
+    </div>
+    <div class='digit'>
+      <span>0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9</span>
+    </div>
+    <div class='digit'>
+      <span>0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9</span>
+    </div>
+  </div>
+</body>
+</html>"
+RETURN
+htmlString
+
+promt13:The numbers are not loading. They are zero constantly.
+	The total time span should be 0.7 seconds to complete the visual. Place the number in the middle and not left aligned. Make the fon Arial regular.
+
+promt14: The numbers are zero constantly. Can you modify the DAX and gie me the update one?
+
+prompt15: Can you modify the DAX so that it takes the three-digit value from a Power Bi Measure calle "KPI_(Top Speed)"?
