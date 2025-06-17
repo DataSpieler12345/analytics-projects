@@ -18,24 +18,17 @@ In this project, we explore how to enhance traditional Power BI dashboards by in
 - DAX
 
 
-## Project Structure
--![project](https://github.com/DataSpieler12345/analytics-projects/assets/45371372/47657b72-22df-45f8-8579-8ad67337cc10)
--![project](https://github.com/DataSpieler12345/analytics-projects/assets/45371372/47657b72-22df-45f8-8579-8ad67337cc10)
-- **Data Collection:** Utilize Kaggle API to download datasets.
-- **Data Processing:** Clean and preprocess data using Pandas.
-- **Data Loading:** Load the processed data into a SQL server.
-- **Analysis:** Answer interesting questions using SQL queries.
+## Project Views
+![view1](https://github.com/user-attachments/assets/9ca3737f-c8bd-4ce5-b393-44d6f1d66b31)
+![view2](https://github.com/user-attachments/assets/03796872-9494-4f55-b284-1f24a916b352)
+![view3](https://github.com/user-attachments/assets/29b95aa8-92df-4dae-adb5-f017c127e89f)
+![view4](https://github.com/user-attachments/assets/49b8099e-eec7-4d95-829f-7f65dc6ff651)
+![view5](https://github.com/user-attachments/assets/8a4c3775-7ac4-45ce-8b52-314c1feb47a9)
 
 ## 🚀 How to Use
 1. Clone the repository to your local machine.
-2. Run the Jupyter Notebook or Python script to execute the project.
+2. Run the Pbix File to execute the project.
 3. Explore the results and insights obtained from the data analysis.
-
-## Images
-- ![py1](https://github.com/DataSpieler12345/analytics-projects/assets/45371372/bdcdb8c5-9f73-4d94-8cd0-20ab246f3753)
-- ![py2](https://github.com/DataSpieler12345/analytics-projects/assets/45371372/3d4fc984-3a9e-4e42-ae57-4c6d4cb58cfa)
-- ![query1](https://github.com/DataSpieler12345/analytics-projects/assets/45371372/53d4de7a-afe0-4384-b102-7687db4d25da)
-- ![query2](https://github.com/DataSpieler12345/analytics-projects/assets/45371372/660028a2-000b-4dfa-8e56-a0f5a9251b68)
 
 I hope you enjoy exploring this data analytics project!
 
