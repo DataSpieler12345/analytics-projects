@@ -18,7 +18,7 @@
 > This repository showcases how to combine visualization, automation, and advanced analytics to unlock the full value of data.
 
 
-🔗 **Tools used**: Tableau · Excel
+🔗 **Tools used**: Tableau Deskot Public Edition · Microsoft Excel
 🚀 **Use cases**: Dynamic KPIs · Interactive dashboards  
 
 
