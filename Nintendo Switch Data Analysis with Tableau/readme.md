@@ -10,7 +10,7 @@
 
 
 
-## 🧠📊 Nintendo Switch Analysis with Tableau
+## 🧠📊 Nintendo Switch Games Analysis with Tableau
 
 ![Data Intelligence](https://img.shields.io/badge/Data%20Intelligence-Empowering%20Decisions-blueviolet?style=for-the-badge&logo=databricks&logoColor=white)
 
